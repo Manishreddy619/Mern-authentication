@@ -5,7 +5,7 @@ MERN APP for registering users with mongodb and authentication using a JWT (json
 
 
 # Configuration :
-Create a ```config.env``` file in the root directory and fill it with the following informations :
+Create a ``.env``` file in the root directory and fill it with the following informations :
 
 ```
 PORT=5000
