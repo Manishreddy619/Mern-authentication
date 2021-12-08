@@ -1,37 +1,6 @@
 # Simple Authentification System (include password reset) with MERN stack : 
-
-MERN APP for registering users with mongodb and authentication using a JWT (json web token), It includes also a password reset functionality.
-
-
-
-# Configuration :
-Create a ``.env``` file in the root directory and fill it with the following informations :
-
-```
-PORT=5000
-
-DATABASE_CONNECTION="Your DB URI"
-
-JWT_SECRET="Your JWT Secret key"
-JWT_EXPIRE="10min"
-
-#For password Reset :
-
-EMAIL_SERVICE=""
-EMAIL_USERNAME=""
-EMAIL_PASSWORD=""
-EMAIL_FROM=""
-```
-
-# Quick Start :
-```Javascript
-// Install dependencies for server & client
-npm install && npm run client-install
-
-// Run client & server with concurrently
-npm run dev
-
-// Server runs on http://localhost:5000 and client on http://localhost:3000
+ 
+Implementation authentication and authorization in this MERN stack project.The concepts like login and register authentication, hashing password and storing them securely, generating JWT and storing it in the frontend.creating private routes in ReactJs and also how to handle password reset and sending emails to the users using Nodemailer and SendGrid.
 ```
 
 
